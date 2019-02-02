@@ -1,0 +1,242 @@
+/* This is a CSS comment */
+* {
+	padding:0;
+	margin:0;
+
+}
+body {
+	font-size: 100%;
+	text-align:justify;
+}
+
+
+
+
+
+header {
+	min-height: 90px;
+	background-color:#ca1515;
+}
+header h1 {
+
+	vertical-align: middle;
+	font-size:60px;
+}
+
+
+
+
+#mainBody {
+	position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border-style:none;
+}
+
+li {
+    float: left;
+}
+
+li a , .dropbtn{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 37px;
+    text-decoration: none;
+	font-size:22.3px;
+}
+
+li a:hover,.dropdown:hover .dropbtn{
+    background-color: #0b882d;
+}
+
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 193px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 42px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ffbf00;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#mainBody{
+	margin:25px 90px;
+}
+
+.video{
+	position: relative;
+    padding-bottom: 56.25%;
+    height: auto;
+}
+
+#vleft {
+	float:left;
+    width: 45%;
+	margin-right:1em;
+}
+
+#left {
+	float:left;
+    width: 45%;
+}
+
+#right {
+    float: left;
+    width: 55%;
+}
+
+h6{
+	clear:left;
+}
+
+.container{
+	clear:both;
+	width:1150px;
+
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container ul{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container ul li {
+	width:1150px;
+	height:260px;
+	background-color: #f2f3f7;
+	border:12px solid white;
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#cleft{
+	float:left;
+	width:38%
+
+}
+
+#cright{
+	float:left;
+	width:60%;
+	background-color: #f2f3f7;
+
+}
+
+#pic{
+	width:400px;
+	margin:15px;
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#map-canvas {
+	width:850px;
+	height: 400px;
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	border:1px solid black;
+	
+}
+
+.inputsearches{
+	float:left;
+	width: 22%;
+	margin:0  0 0 25px	
+}
+
+.col-md-8{
+	max-width: 85.55%;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid black;
+}
+
+h2{
+	margin:12px 0 0 0;
+}
+
+h3{
+	color:black;
+	font-size:45px;
+	margin:0 0 12px;
+	font-family:Footlight MT Light;
+}
+
+footer{
+	border-width: 1px 0 0 0;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.79);
+	border-style: solid;
+	position:fixed;
+    bottom:0;
+    width:100%;
+	
+}
+
+footer p{
+	color:black;
+}
+
+h4{
+	margin:0 0 4px;
+	
+}
+
+#contentt{
+	margin:55px -20px 0 20px;
+}
+	
+#TA_cdsratingsonlywide273{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.video iframe,
+.video object,
+.video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}

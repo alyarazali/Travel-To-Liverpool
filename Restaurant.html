@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html><head>
+		<!-- This is a comment tag -->
+		<meta charset="UTF-8" />
+		<title>Lecture 4</title>
+		<link rel="stylesheet" href="Layout.css" type="text/css" media="screen,projection" />
+		<link rel="stylesheet" href="Theme.css" type="text/css" media="screen,projection" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+		.mySlides {
+			display:none;
+		}
+		</style>
+		
+	</head>
+	<body>
+		
+			<header>
+				<div class="sandbox sandbox-correct-pronounciation">
+					<h1 class="heading heading-correct-pronounciation">
+						<em>Travel To</em>
+						Liverpool
+					</h1>
+				</div>
+							
+			</header>
+			
+			
+			<ul class="navmenu">
+				<li><a href="index.html">About Us <alt="The home button" /></a></li>
+				<li><a href="Top.html">Top Attraction</a></li>
+				<li><a href="Accomodation.html">Accomodation</a></li>
+				<li class="dropdown">
+					<a href="javascript:void(0)" class="dropbtn">Arts & Culture</a>
+						<div class="dropdown-content">
+							<a href="Theatre.html">Theatre</a>
+							<a href="Museum.html">Museums&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+							<a href="Gallery.html">Galleries</a>
+						</div>	
+				<li class="dropdown">	
+					<a href="javascript:void(0)" class="dropbtn">Food & Drink</a>
+						<div class="dropdown-content">
+							<a href="Restaurant.html">Restaurants</a>
+							<a href="Cafe.html">Cafe</a>
+							<a href="Bars.html">Bar</a>
+						</div>	
+				
+				<li><a href="Shopping.html">Shopping</a></li>
+				<li><a href="Map.html">View Map</a></li>
+			</ul>
+			
+			<div id="mainBody">
+				<h3> Restaurants </h3>
+				<div id="content">
+					<div id="left">
+						
+						<div class="w3-content w3-section" style="max-width:500px">
+						<img class="mySlides" src="Restaurant/Fonseca.jpg" style="width:100%">
+						<img class="mySlides" src="Restaurant/tlcw.jpg" style="width:100%">
+						<img class="mySlides" src="Restaurant/deli.jpg" style="width:100%">
+						
+					</div>
+
+					<script>
+						var myIndex = 0;
+						carousel();
+
+						function carousel() {
+							var i;
+							var x = document.getElementsByClassName("mySlides");
+							for (i = 0; i < x.length; i++) {
+								x[i].style.display = "none";  
+							}
+							myIndex++;
+							if (myIndex > x.length) {myIndex = 1}    
+							x[myIndex-1].style.display = "block";  
+							setTimeout(carousel, 2000); // Change image every 2 seconds
+							}
+					</script>
+						
+					</div>
+					<div id="right">
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The restaurant scene in Liverpool city region is booming, with more places to eat and more international cuisines than ever before.
+						Our suggestion of restaurants includes The London Carriage Works, Fonseca's and Delifonseca Dockside.</p>
+					</div>
+				</div>
+				
+				<div class="container">
+					<ul>
+						<li>
+							<div id="cleft">
+								<img id="pic" src="Restaurant/tlcw.jpg" alt="The London Carriage Works">
+								
+							</div>
+							
+							<div id="cright">
+								<h2 class=title>The London Carriage Works</h2>
+							The London Carriage Works restaurant is perfectly placed for visitors. TLCW serves modern British food with an emphasis on sourcing and using local, fresh and seasonal produce. 
+							The innovative menus are complemented by a carefully selected 200 bin wine list. TlCW is a destination restaurant in its own right but is also open for breakfast, brunch, lunch, afternoon tea, pre concert/theatre supper, dinner and post concert/theatre cocktails. 
+
+
+							<p>&nbsp;</p>					
+							<p>Address: Hope Street Hotel, 40 Hope St, Liverpool L1 9DA, UK</p>
+							<p>Phone: +44 151 705 2222</p>
+					
+								
+							</div>
+							
+						</li>
+						<li>
+							<div id="cleft">
+								<img id="pic" src="Restaurant/Fonseca.jpg" alt="Fonseca's">
+							</div>
+							
+							<div id="cright">
+								<h2 class=title>Fonseca's</h2>
+								Ground floor deli with airy, stripped floor upstairs restaurant with booths, for Mediterranean food. 
+								<p>&nbsp;</p>
+								<p>Address: 12 Stanley St, Liverpool L1 6AF, UK</p>
+								<p>Phone: +44 151 255 0808</p>
+							
+							</div>
+						</li>
+						<li>
+							<div id="cleft">
+								<img id="pic" src="Restaurant/deli.jpg" alt="Delifonseca Dockside">
+							</div>
+							
+							<div id="cright">
+								<h2 class=title>Delifonseca Dockside</h2>
+								Delifonseca Dockside is a ‘foodies’ paradise situated just outside of Liverpool City Centre. With a blackboard menu that changes daily, boasting the freshest produce from around the North West, the restaurant at Delifonseca Dockside combines classic cuisine with exciting new dishes in a welcoming and friendly atmosphere.
+								<p>&nbsp;</p>
+								<p>Address: Brunswick Way, Liverpool L3 4BN, UK</p>
+								<p>Phone: +44 151 255 0808</p>
+						</li>
+						
+					</ul>
+					<p>&nbsp;</p>	
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>	
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+							<p>&nbsp;</p>
+				</div>
+			
+				
+			
+			</div>
+			
+			<footer>
+				<p>&copy TRAVEL TO LIVERPOOL 2019</p>
+			</footer>
+	</body>
+</html>
