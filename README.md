@@ -1,2 +1,0 @@
-# visitliverpool
-ENJOY!
