@@ -1,11 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html><head>
+
+	<title>Travel To Liverpool - Visit Liverpool and its top attractions</title>	
+	<meta name="description" content="Travel to Liverpool, England: What you can do in Liverpool and its best place."/>
+	<meta name="Keywords" content="Travel to Liverpool England, visit Liverpool, Top Attractions in Liverpool, 
+				       discover Liverpool, tourism Liverpool"/>
+	<meta name="robots" content="index,follow"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">	
+	
+	<meta name="google-site-verification" content="nuoVPSh28KIHEKJ9JSiz_sCcC_nh-wN6ZI1S0bCNXEU" />
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133679002-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-133679002-1');
+	</script>
+
+	
+	<link rel="stylesheet" href="Layout.css" type="text/css" media="screen,projection" />
+	<link rel="stylesheet" href="Theme.css" type="text/css" media="screen,projection" />
+		
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<style>
+	.mySlides {
+		display:none;
+	}
+	#left {
+		float:left;
+	    width: 50%;
+	}
+	#right {
+	    float: left;
+	    width: 50%;
+	}
+	</style>
+
+
+
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 <body id="myPage">
 
 <!-- Sidebar on click -->
